@@ -20,22 +20,8 @@ Results Comparison:
 Fuzzy Matching Results:
 The fuzzy matching technique returned the following match scores between the original entity names and their corresponding source names.
 
-Original Name	Source Name	Match Score
-asml nv	asml nv	100
-unilever bv	unilever nv	91
-shell bv	royal dutch shell	48
-ing bank nv	ing nv	71
-koninklijke filips	koninklijke philips nv	72
-adyen nv	adyen nv	100
-relx	relx	100
-prosus	prosus nv	80
-dsm	koninklijke dsm nv	40
-aholddelheize	koninklijke ahold delhaize nv	57
-heineken breweries	heineken nv	55
-apple	apple	100
-microsoft	microsoft	100
-capgemini india	capgemini	75
-samsung lectronics	samsung electronics	97
+
+
 ![image](https://github.com/user-attachments/assets/1d55691f-eac2-4476-8dc4-256f21b049e0)
 
 
@@ -46,22 +32,7 @@ BERT-based Semantic Matching Results:
 The BERT-based method computed semantic similarity scores between the original entity names and source names. These scores represent how closely the names align semantically, with 1.0 indicating a perfect match.
 
 
-original_name	source_name	similarity_score
-asml nv	asml holding nv	1.000000119
-unilever bv	unilever nv	1.000000119
-shell bv	royal dutch shell plc	0.879339755
-ing bank nv	ing group nv	0.859794855
-koninklijke filips	koninklijke philips nv	0.947098255
-adyen nv	adyen nv	0.999999881
-relx plc	relx plc	1
-prosus group	prosus nv	0.99999994
-dsm	koninklijke dsm nv	0.888809919
-ahold-delheize	koninklijke ahold delhaize nv	0.87124604
-heineken breweries	heineken nv	0.794587374
-apple inc	apple	0.999999881
-Microsoft	Microsoft inc	1
-Capgemini India pvt limited	Capgemini	0.907113969
-SAMSUNG ÃŠLECTRONICS Holding, LTD	samsung electronics	0.867960393
+
 ![image](https://github.com/user-attachments/assets/3526ebe9-23d5-4fe6-bc37-207e25f6adc0)
 
 
